@@ -1,5 +1,5 @@
-use nacos_api::{NacosConfig, NacosConfigApi, NacosConfigClient};
-use nacos_api::model::DeployConfig;
+use clia_nacos_api::{NacosConfig, NacosConfigApi, NacosConfigClient};
+use clia_nacos_api::model::DeployConfig;
 
 
 #[tokio::main]

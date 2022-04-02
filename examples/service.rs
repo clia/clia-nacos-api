@@ -1,4 +1,4 @@
-use nacos_api::{NacosClient, NacosConfig, ServerConfig};
+use clia_nacos_api::{NacosClient, NacosConfig, ServerConfig};
 
 #[tokio::main]
 async fn main() {

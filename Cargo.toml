@@ -1,13 +1,12 @@
 [package]
-name = "nacos-api"
-version = "0.2.1"
-authors = ["Squbirreland <Squbirreland@outlook.com>"]
-edition = "2018"
+name = "clia-nacos-api"
+version = "0.2.2"
+authors = ["Cris Liao <clia@163.com>", "Squbirreland <Squbirreland@outlook.com>"]
+edition = "2021"
 exclude = [".idea", "target", "nacos-api_macro/**/*"]
 include = ["src/**/*", "Cargo.toml", "LICENSE", "README.md"]
-repository = "https://github.com/Squbirreland/nacos-api.git"
-
-description = "Nacos - Rust Client"
+repository = "https://github.com/clia/clia-nacos-api"
+description = "A personal temporary Nacos API, forked from Squbirreland/nacos-api."
 keywords = ["nacos", "nacos-api"]
 readme = "README.md"
 license = "Apache-2.0"
