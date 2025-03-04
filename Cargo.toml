@@ -1,6 +1,6 @@
 [package]
 name = "clia-nacos-api"
-version = "0.2.2"
+version = "0.2.3"
 authors = ["Cris Liao <clia@163.com>", "Squbirreland <Squbirreland@outlook.com>"]
 edition = "2021"
 exclude = [".idea", "target", "nacos-api_macro/**/*"]
@@ -13,7 +13,7 @@ license = "Apache-2.0"
 
 [dependencies]
 nacos-api_macro = { version = "0.1.0" }
-reqwest = { version = "0.11", features = ["json"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
 tokio = { version = "1.6.0", features = ["full"] }
 serde = { version = "1.0.126", features = ["derive"] }
 serde_json = "1.0.64"
